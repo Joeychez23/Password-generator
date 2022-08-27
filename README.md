@@ -2,11 +2,11 @@
 
 ##Description
 
-Generates a passwords when button is clicked using alerts/prompts to allow the user to input the desired password conditions
+Generates a passwords when button is clicked using alerts/prompts that allow the user their input the desired password conditions
 
 ## Output
 
-Outputs a password that is dependent on the user input values
+Outputs a password that's dependent on user input values
 
 A pictures of the site will be provided bellow:
 
@@ -15,4 +15,8 @@ A pictures of the site will be provided bellow:
 
 ## Pages
 
+https://joeychez23.github.io/Password-generator/
+
 ## Repo
+
+https://github.com/Joeychez23/Password-generator
