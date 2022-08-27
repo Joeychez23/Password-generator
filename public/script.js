@@ -15,7 +15,7 @@ function generatePassword(length, require) {
       let letter = Math.floor(Math.random() * 93) + 33;
       console.log(letter);
       if(require[0] == false && require[1] == false && require[2] == false && require[3] == false) {
-        return pass = "REGENERATE PASSWORD";
+        return pass = "";
       }
   
       if(require[0] == true && require[1] == true && require[2] == true && require[3] == true) {
