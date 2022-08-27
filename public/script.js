@@ -160,14 +160,12 @@ function generatePassword(length, require) {
   
     if(aNumber >= 8 && aNumber <= 128) {
       if (confirm("Include Uppercase?") == true) {
-        alert("Added")
         require[0] = true;
       } else {
         require[0] = false;
       }
   
       if (confirm("Include Lowercase?") == true) {
-        alert("Added")
         require[1] = true;
       } else {
         require[1] = false;
@@ -176,14 +174,12 @@ function generatePassword(length, require) {
       
       
       if (confirm("Include Numbers?") == true) {
-        alert("Added")
         require[2] = true;
       } else {
         require[2] = false;
       }
       
       if (confirm("Include Special Characters?") == true) {
-        alert("Added")
         require[3] = true;
       } else {
         require[3] = false;
