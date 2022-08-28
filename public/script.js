@@ -10,12 +10,12 @@
 
 function generatePassword(length, require) {
     console.log(require);
-    let pass = '';
+    let pass = "";
     for(let i = 0; i < length; i++) {
       let letter = Math.floor(Math.random() * 93) + 33;
       console.log(letter);
       if(require[0] == false && require[1] == false && require[2] == false && require[3] == false) {
-        return pass = "";
+        return pass;
       }
   
       if(require[0] == true && require[1] == true && require[2] == true && require[3] == true) {
